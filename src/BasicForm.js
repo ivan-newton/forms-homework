@@ -11,7 +11,7 @@ function BasicForm() {
   const [errors, setErrors] = useState({});
   const [submittedData, setSubmittedData] = useState(null);
 
-  // Validation function f
+  // Validation function 
   const validateField = (name, value) => {
     if (name === 'name') {
       if (!value.trim()) {
